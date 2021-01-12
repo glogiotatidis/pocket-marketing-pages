@@ -3,15 +3,14 @@
   command = "eleventy"
 
 [[redirects]]
-  from = "/"
-  to = "/en/about/"
-  status = 302
-  force = false
-
-
-[[redirects]]
-  from = "/"
-  to = "/de/about/"
+  from = "/*"
+  to = "/de/:splat"
   status = 302
   force = false
   conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/en/:splat"
+  status = 302
+  force = false
