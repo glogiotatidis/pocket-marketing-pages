@@ -7,3 +7,11 @@
   to = "/en/about/"
   status = 302
   force = false
+
+
+[[redirects]]
+  from = "/"
+  to = "/de/about/"
+  status = 302
+  force = false
+  conditions = {Language = ["de"]}
