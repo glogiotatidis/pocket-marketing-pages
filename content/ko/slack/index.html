@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Save to Pocket from Slack</title>
+    <meta name="apple-itunes-app" content="app-id=309601447" />
+    <link rel="stylesheet" href="/assets/web/main.0e7acadb990d457f5f90.css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Pocket Blog RSS Feed"
+      href="https://feeds2.feedburner.com/ReadItLaterBlog"
+    />
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="Pocket Blog Atom Feed"
+      href="https://feeds2.feedburner.com/ReadItLaterBlog"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_@57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_@72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_@114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_@144.png"
+    />
+    <!--[if lt IE 10]>
+      <script src="/j/v4/vendor/matchmedia.min.js"></script>
+    <![endif]-->
+    <script src="/assets/j/v4/vendor/modernizr-2.8.3.min.js"></script>
+    <script>
+      Modernizr.load({
+        test: Modernizr.mq("only all"),
+        nope: "/j/v4/vendor/respond.min.js",
+      });
+    </script>
+    <script
+      src="/assets/lko0gwm.js"
+      integrity="sha384-wqQ9PMGzApr6K7ufch7JnGI1+0Gq6ULUFpn6BOe6unVWmLn25rkMbDnO1BAK1Rwl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+    <style>
+      h1,
+      h2,
+      p {
+        color: #353535 !important;
+      }
+
+      section.body-content {
+        max-width: 700px;
+        margin: auto;
+      }
+
+      section.body-content .row {
+        margin-top: 42px;
+      }
+
+      section.body-content .body-text {
+        text-align: center;
+      }
+
+      .bullet-point {
+        background: #50bcb6;
+        border-radius: 1em;
+        color: #ffffff;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 2em;
+        margin-right: 15px;
+        text-align: center;
+        width: 2em;
+
+        float: left;
+      }
+
+      .bullet-point-text {
+        margin-left: 80px;
+      }
+
+      .text-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .top-card > form {
+        padding: 25px 25px;
+      }
+
+      @media only screen and (min-width: 768px) {
+        .top-card > form {
+          padding: 58px 25px;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-premium page-premium-ko-kr page-ko-kr">
+    <header class="header-global">
+      <div class="row">
+        <div class="small-12 large-3 columns">
+          <h1 id="header-logo">
+            <a href="https://getpocket.com/">Pocket</a>
+          </h1>
+        </div>
+        <div class="small-12 large-9 columns header-menu">
+          <nav>
+            <ul>
+              <li>
+                <a class="signup" href="https://getpocket.com/signup/?ep=1"
+                  >등록</a
+                >
+              </li>
+              <li><a href="https://getpocket.com/add/?ep=1">저장 방법</a></li>
+              <li>
+                <a href="https://getpocket.com/premium?ep=1"
+                  >프리미엄으로 이동</a
+                >
+              </li>
+              <li>
+                <a href="https://help.getpocket.com" target="_block">지원</a>
+              </li>
+              <li class="login">
+                <span
+                  ><a
+                    class="mktg-homepage-signin"
+                    href="https://getpocket.com/login/?ep=1"
+                    >로그인</a
+                  ></span
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="top-card premium-form">
+      <form>
+        <div class="column-premiumcontent">
+          <img
+            src="/assets/i/v4/slack/slack-plus-pocket.png"
+            srcset="
+              /assets/i/v4/slack/slack-plus-pocket.png    1x,
+              /assets/i/v4/slack/slack-plus-pocket@2x.png 2x
+            "
+          />
+          <h2 style="padding-top: 21px">Slack에서 Pocket에 저장</h2>
+          <p>
+            Slack용 Pocket으로 하루동안 팀원들이 공유하는 아티클, 비디오 및 기타
+            흥미로운 이야기들의 링크를 저장할 조용한 전용 공간을 가질 수
+            있습니다. 원할 때 언제라도 저장한 항목을 귀하의 휴대폰, 태블릿 또는
+            컴퓨터의 Pocket에서 확인하실 수 있습니다.
+          </p>
+          <div style="margin: 30px">
+            <a
+              href="https://slack.com/oauth/authorize?client_id=2155731196.311702945840&scope=commands,chat:write:bot,bot"
+            >
+              <img
+                alt="Add to Slack"
+                height="40"
+                width="139"
+                src="/assets/img/add_to_slack.png"
+                srcset="
+                  /assets/img/add_to_slack.png    1x,
+                  /assets/img/add_to_slack@2x.png 2x
+                "
+              />
+            </a>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="body-content">
+      <div class="row">
+        <div class="columns">
+          <h2>시작하기</h2>
+          <p class="body-text"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 push-6 columns text-column">
+          <div>
+            <span class="bullet-point">1</span>
+            <p
+              class="bullet-point-text narrow-show feature-paragraph feature-paragraph-library"
+            >
+              팀원이 공유한 링크를 저장하고 싶다면 메시지 액션 버튼을 클릭하고
+              <strong>Pocket에 저장</strong>을 선택하십시오.
+            </p>
+          </div>
+        </div>
+        <div class="small-12 large-6 pull-6 columns">
+          <picture class="graphic-featurelibrary">
+            <img
+              src="/assets/i/v4/slack/slack-install-step-1.png"
+              srcset="
+                /assets/i/v4/slack/slack-install-step-1.png    1x,
+                /assets/i/v4/slack/slack-install-step-1@2x.png 2x
+              "
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 push-6 columns text-column">
+          <div>
+            <span class="bullet-point">2</span>
+            <p
+              class="bullet-point-text narrow-show feature-paragraph feature-paragraph-library"
+            >
+              처음 저장할 때 Pocket은
+              <strong>Slack에 Pocket을 연결</strong>하라는 메시지를 전송할
+              것입니다.
+            </p>
+          </div>
+        </div>
+        <div class="small-12 large-6 pull-6 columns">
+          <picture class="graphic-featurelibrary">
+            <img
+              src="/assets/i/v4/slack/slack-install-step-2.png"
+              srcset="
+                /assets/i/v4/slack/slack-install-step-2.png    1x,
+                /assets/i/v4/slack/slack-install-step-2@2x.png 2x
+              "
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 push-6 columns text-column">
+          <div>
+            <span class="bullet-point">3</span>
+            <p
+              class="bullet-point-text narrow-show feature-paragraph feature-paragraph-library"
+            >
+              Pocket에 로그인하고 계정을 연결하십시오. 이제 Slack에 게시되는
+              모든 링크를 저장할 수 있습니다.
+            </p>
+          </div>
+        </div>
+        <div class="small-12 large-6 pull-6 columns">
+          <picture class="graphic-featurelibrary">
+            <img
+              src="/assets/i/v4/slack/slack-install-step-3.png"
+              srcset="
+                /assets/i/v4/slack/slack-install-step-3.png    1x,
+                /assets/i/v4/slack/slack-install-step-3@2x.png 2x
+              "
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 30px">
+        <div class="columns">
+          <p class="body-text">
+            Questions?
+            <a
+              href="https://help.getpocket.com/article/1145-saving-to-pocket-from-slack"
+            >
+              Learn more about saving to Pocket in Slack &rsaquo;
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-global">
+      <div class="row">
+        <div class="small-12 large-3 push-9 columns footer-global-social">
+          <nav>
+            <ul>
+              <li><p>연결:</p></li>
+              <li class="social-break">
+                <a
+                  class="icon-social icon-twitter"
+                  href="https://twitter.com/pocket"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="icon-social icon-facebook"
+                  href="https://facebook.com/pocket"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  class="icon-social icon-googleplus"
+                  href="https://plus.google.com/111984034088692092819?prsrc=3"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Google Plus</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="small-12 large-9 pull-3 columns footer-global-primary">
+          <nav>
+            <ul>
+              <li><a href="https://getpocket.com/blog">블로그</a></li>
+              <li><a href="https://getpocket.com/about">정보</a></li>
+              <li><a href="https://getpocket.com/explore">Explore</a></li>
+              <li><a href="https://getpocket.com/publisher">게시자</a></li>
+              <li><a href="https://getpocket.com/developer">개발자</a></li>
+              <li><a href="https://getpocket.com/publisher"></a></li>
+              <li class="break">
+                <a href="https://getpocket.com/tos">서비스 약관</a>
+              </li>
+              <li>
+                <a href="https://getpocket.com/privacy">개인정보 보호정책</a>
+              </li>
+              <li>
+                <a
+                  href="https://help.getpocket.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  >지원</a
+                >
+              </li>
+              <li><a href="https://getpocket.com/jobs">채용</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-3 large-offset-9 columns footer-global-copy">
+          <p>&copy; 2020 Read It Later, Inc</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.__STATE__ = {
+        api: { baseUrl: "\/v3", consumerKey: "86291-f8d3e654be359e75b7625e79" },
+        appleAuth: {
+          clientId: "com.pocket.apple-sso",
+          redirectURI: "https:\/\/getpocket.com\/connect\/apple\/check",
+          scope: "name email",
+          state: "12345",
+        },
+        csrf: {
+          token:
+            "652e7126a88fb4b0efa07477b063613e283432dcf1f0b0a4e2c21e44c69f3327",
+        },
+        captcha: {
+          isRequired: false,
+          siteKey: "6LfIpyYUAAAAAPtNSKafudr16odFL1eQte0vR0Py",
+        },
+        csrfSymfony: { token: "N0wxvKLbOMhpGHWW7RfEkZu9juJW62zPqmtnctr-A60" },
+        env: "prod",
+        googleAuth: {
+          clientId:
+            "173409440056-oek12ddu7d36lbnpquv9dr8rs6ijcer0.apps.googleusercontent.com",
+        },
+        localization: { locale: "ko-KR" },
+        sentry: {
+          dsn: "https:\/\/15c50c1db6cf425594a1d4d779dc0792@sentry.io\/285989",
+          version: "4132a47d46c8d1e6d326f31d238b9735e61e0246",
+          environment: "prod",
+        },
+        stripe: { publicKey: "pk_live_bh3nfDMzSI1Z9MvuwRWg8vWh" },
+      };
+    </script>
+    <script src="/assets/web/main.ba9806c7bc46056e1919.js"></script>
+    <script src="/assets/j/v4/global.min.js%3Fv=229"></script>
+    <script>
+      if (typeof PocketAnalytics == "object") {
+        PocketAnalytics.init(1610449039, "9c0880b4bc5303341d450d7cdab0be24");
+      }
+      PocketDomain = "getpocket.com";
+    </script>
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-370613-9", "auto");
+      ga("require", "displayfeatures");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
