@@ -2,6 +2,89 @@
   publish = "_site"
   command = "eleventy"
 
+
+# Redirect old style locale URLs to new ones
+[[redirects]]
+  from = "/de-DE/*"
+  to = "/de/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/es-ES/*"
+  to = "/es/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/es-LA/*"
+  to = "/es/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/fr-CA/*"
+  to = "/fr/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/fr-FR/*"
+  to = "/fr/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/it-IT/*"
+  to = "/it/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/ja-JP/*"
+  to = "/ja/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/ko-KR/*"
+  to = "/ko/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/nl-NL/*"
+  to = "/nl/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/pl-PL/*"
+  to = "/pl/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/pt-BR/*"
+  to = "/pt/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/pt-PT/*"
+  to = "/pt/:splat"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/ru-RU/*"
+  to = "/ru/:splat"
+  status = 302
+  force = false
+
+
+# Rediret based on Accept-Language
+
 [[redirects]]
   from = "/*"
   to = "/de/:splat"
