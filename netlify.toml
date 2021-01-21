@@ -11,6 +11,84 @@
 
 [[redirects]]
   from = "/*"
+  to = "/es/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["es"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/fr/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/it/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["it"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/ja/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["ja"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/ko/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["ko"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/nl/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["nl"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/pl/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["pl"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/pt/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["pt"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/ru/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["ru"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/zh-cn/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["zh-CN"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/zh/:splat"
+  status = 302
+  force = false
+  conditions = {Language = ["zh-TW"]}
+
+# Leave it last as the default redirect
+[[redirects]]
+  from = "/*"
   to = "/en/:splat"
   status = 302
   force = false

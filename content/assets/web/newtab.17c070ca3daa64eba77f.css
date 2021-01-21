@@ -1,7 +1,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Thin-Web.eot);
-  src: url(fonts/Graphik-Thin-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Thin-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Thin-Web.woff2) format("woff2"),
     url(fonts/Graphik-Thin-Web.woff) format("woff");
   font-weight: 100;
@@ -10,7 +11,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-ThinItalic-Web.eot);
-  src: url(fonts/Graphik-ThinItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-ThinItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-ThinItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-ThinItalic-Web.woff) format("woff");
   font-weight: 100;
@@ -19,7 +21,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Extralight-Web.eot);
-  src: url(fonts/Graphik-Extralight-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Extralight-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Extralight-Web.woff2) format("woff2"),
     url(fonts/Graphik-Extralight-Web.woff) format("woff");
   font-weight: 200;
@@ -28,7 +31,7 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-ExtralightItalic-Web.eot);
-  src: url(fonts/Graphik-ExtralightItalic-Web.eot%3F)
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-ExtralightItalic-Web.eot?)
       format("embedded-opentype"),
     url(fonts/Graphik-ExtralightItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-ExtralightItalic-Web.woff) format("woff");
@@ -38,7 +41,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Light-Web.eot);
-  src: url(fonts/Graphik-Light-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Light-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Light-Web.woff2) format("woff2"),
     url(fonts/Graphik-Light-Web.woff) format("woff");
   font-weight: 300;
@@ -47,7 +51,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-LightItalic-Web.eot);
-  src: url(fonts/Graphik-LightItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-LightItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-LightItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-LightItalic-Web.woff) format("woff");
   font-weight: 300;
@@ -56,7 +61,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Regular-Web.eot);
-  src: url(fonts/Graphik-Regular-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Regular-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Regular-Web.woff2) format("woff2"),
     url(fonts/Graphik-Regular-Web.woff) format("woff");
   font-weight: 400;
@@ -65,7 +71,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-RegularItalic-Web.eot);
-  src: url(fonts/Graphik-RegularItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-RegularItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-RegularItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-RegularItalic-Web.woff) format("woff");
   font-weight: 400;
@@ -74,7 +81,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Medium-Web.eot);
-  src: url(fonts/Graphik-Medium-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Medium-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Medium-Web.woff2) format("woff2"),
     url(fonts/Graphik-Medium-Web.woff) format("woff");
   font-weight: 500;
@@ -83,7 +91,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-MediumItalic-Web.eot);
-  src: url(fonts/Graphik-MediumItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-MediumItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-MediumItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-MediumItalic-Web.woff) format("woff");
   font-weight: 500;
@@ -92,7 +101,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Semibold-Web.eot);
-  src: url(fonts/Graphik-Semibold-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Semibold-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Semibold-Web.woff2) format("woff2"),
     url(fonts/Graphik-Semibold-Web.woff) format("woff");
   font-weight: 600;
@@ -101,7 +111,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-SemiboldItalic-Web.eot);
-  src: url(fonts/Graphik-SemiboldItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-SemiboldItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-SemiboldItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-SemiboldItalic-Web.woff) format("woff");
   font-weight: 600;
@@ -110,7 +121,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Bold-Web.eot);
-  src: url(fonts/Graphik-Bold-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Bold-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Bold-Web.woff2) format("woff2"),
     url(fonts/Graphik-Bold-Web.woff) format("woff");
   font-weight: 700;
@@ -119,7 +131,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-BoldItalic-Web.eot);
-  src: url(fonts/Graphik-BoldItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-BoldItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-BoldItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-BoldItalic-Web.woff) format("woff");
   font-weight: 700;
@@ -128,7 +141,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Black-Web.eot);
-  src: url(fonts/Graphik-Black-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Black-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Black-Web.woff2) format("woff2"),
     url(fonts/Graphik-Black-Web.woff) format("woff");
   font-weight: 800;
@@ -137,7 +151,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-BlackItalic-Web.eot);
-  src: url(fonts/Graphik-BlackItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-BlackItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-BlackItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-BlackItalic-Web.woff) format("woff");
   font-weight: 800;
@@ -146,7 +161,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-Super-Web.eot);
-  src: url(fonts/Graphik-Super-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-Super-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-Super-Web.woff2) format("woff2"),
     url(fonts/Graphik-Super-Web.woff) format("woff");
   font-weight: 900;
@@ -155,7 +171,8 @@
 @font-face {
   font-family: Graphik Web;
   src: url(fonts/Graphik-SuperItalic-Web.eot);
-  src: url(fonts/Graphik-SuperItalic-Web.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Graphik-SuperItalic-Web.eot?)
+      format("embedded-opentype"),
     url(fonts/Graphik-SuperItalic-Web.woff2) format("woff2"),
     url(fonts/Graphik-SuperItalic-Web.woff) format("woff");
   font-weight: 900;
@@ -164,7 +181,8 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-Regular.eot);
-  src: url(fonts/Doyle-Regular.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Doyle-Regular.eot?)
+      format("embedded-opentype"),
     url(fonts/Doyle-Regular.woff2) format("woff2"),
     url(fonts/Doyle-Regular.woff) format("woff");
   font-weight: 400;
@@ -173,7 +191,8 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-RegularItalic.eot);
-  src: url(fonts/Doyle-RegularItalic.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Doyle-RegularItalic.eot?)
+      format("embedded-opentype"),
     url(fonts/Doyle-RegularItalic.woff2) format("woff2"),
     url(fonts/Doyle-RegularItalic.woff) format("woff");
   font-weight: 400;
@@ -182,7 +201,8 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-Medium.eot);
-  src: url(fonts/Doyle-Medium.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Doyle-Medium.eot?)
+      format("embedded-opentype"),
     url(fonts/Doyle-Medium.woff2) format("woff2"),
     url(fonts/Doyle-Medium.woff) format("woff");
   font-weight: 500;
@@ -191,7 +211,8 @@
 @font-face {
   font-family: Doyle;
   src: url(fonts/Doyle-MediumItalic.eot);
-  src: url(fonts/Doyle-MediumItalic.eot%3F) format("embedded-opentype"),
+  src: url(https://assets.getpocket.com/web/fonts/Doyle-MediumItalic.eot?)
+      format("embedded-opentype"),
     url(fonts/Doyle-MediumItalic.woff2) format("woff2"),
     url(fonts/Doyle-MediumItalic.woff) format("woff");
   font-weight: 500;
