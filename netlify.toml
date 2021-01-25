@@ -1,7 +1,7 @@
 [build]
   publish = "_site"
   command = "eleventy"
-
+  functions = "./functions"
 
 # Redirect old style locale URLs to new ones
 [[redirects]]
@@ -12,25 +12,25 @@
 
 [[redirects]]
   from = "/es-ES/*"
-  to = "/es/:splat"
+  to = "/es-es/:splat"
   status = 302
   force = false
 
 [[redirects]]
   from = "/es-LA/*"
-  to = "/es/:splat"
+  to = "/es-la/:splat"
   status = 302
   force = false
 
 [[redirects]]
   from = "/fr-CA/*"
-  to = "/fr/:splat"
+  to = "/fr-ca/:splat"
   status = 302
   force = false
 
 [[redirects]]
   from = "/fr-FR/*"
-  to = "/fr/:splat"
+  to = "/fr-fr/:splat"
   status = 302
   force = false
 
@@ -66,13 +66,13 @@
 
 [[redirects]]
   from = "/pt-BR/*"
-  to = "/pt/:splat"
+  to = "/pt-br/:splat"
   status = 302
   force = false
 
 [[redirects]]
   from = "/pt-PT/*"
-  to = "/pt/:splat"
+  to = "/pt-pt/:splat"
   status = 302
   force = false
 
@@ -82,96 +82,21 @@
   status = 302
   force = false
 
-
-# Rediret based on Accept-Language
-
 [[redirects]]
-  from = "/*"
-  to = "/de/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["de"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/es/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["es"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/fr/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["fr"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/it/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["it"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/ja/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["ja"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/ko/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["ko"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/nl/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["nl"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/pl/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["pl"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/pt/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["pt"]}
-
-[[redirects]]
-  from = "/*"
-  to = "/ru/:splat"
-  status = 302
-  force = false
-  conditions = {Language = ["ru"]}
-
-[[redirects]]
-  from = "/*"
+  from = "/zh-CN/*"
   to = "/zh-cn/:splat"
   status = 302
   force = false
-  conditions = {Language = ["zh-CN"]}
 
 [[redirects]]
-  from = "/*"
-  to = "/zh/:splat"
+  from = "/zh-TW/*"
+  to = "/zh-tw/:splat"
   status = 302
   force = false
-  conditions = {Language = ["zh-TW"]}
 
 # Leave it last as the default redirect
 [[redirects]]
   from = "/*"
-  to = "/en/:splat"
+  to = "/.netlify/functions/redirect/:splat"
   status = 302
   force = false
