@@ -44,7 +44,7 @@ exports.handler = async (event, context) => {
       }
     }
 
-    return lang_path + event.path.substr(29);
+    return "https://pocket-static-production.netlify.app/" + lang_path + event.path.substr(29);
   }
 
   return {
