@@ -93,10 +93,3 @@
   to = "/zh-tw/:splat"
   status = 302
   force = false
-
-# Leave it last as the default redirect
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/redirect/:splat"
-  status = 302
-  force = false
