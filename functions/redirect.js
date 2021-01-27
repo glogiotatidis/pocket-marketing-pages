@@ -91,7 +91,7 @@ exports.handler = async (event, context) => {
     } catch (err) {
         return {
             statusCode: 501,
-            body: "Something went wrong. Did you supply URL?"
+            body: "Something went wrong. Did you supply a path?"
         }
     }
 
