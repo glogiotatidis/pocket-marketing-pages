@@ -65,12 +65,12 @@ exports.handler = async (event, context) => {
     }
 
     function redirect(langs) {
-        var url = new URL(event.path.substr(29));
+        var url = event.path.substr(28);
 
         // Ensure URL is not already localized
         for (i = 0, c = Object.values(SUPPORTED_LANGS).length; i < c; i++) {
-            if (url.pathname.startsWith(Object.values(SUPPORTED_LANGS)[i] + '/')) {
-                return event.path.substr(29);
+            if (url.startsWith(Object.values(SUPPORTED_LANGS)[i] + '/')) {
+                return event.path.substr(28);
             }
         }
 
@@ -82,7 +82,7 @@ exports.handler = async (event, context) => {
             }
         }
 
-        return url.origin + lang_path + url.pathname;
+        return lang_path + url;
     }
     var redirect_url;
 
