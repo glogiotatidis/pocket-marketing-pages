@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
-  eleventyConfig.addPassthroughCopy("content/assets");
+  eleventyConfig.addPassthroughCopy("content/marketing-assets");
   eleventyConfig.addPassthroughCopy("robots.txt");
 
   return {
