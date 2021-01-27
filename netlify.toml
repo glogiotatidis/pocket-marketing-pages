@@ -95,6 +95,24 @@
   force = false
 
 [[redirects]]
+  from = "/*/firefox/"
+  to = "/:splat/pocket-and-firefox/"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/*/ipad/"
+  to = "/:splat/ios/"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/*/iphone/"
+  to = "/:splat/ios/"
+  status = 302
+  force = false
+
+[[redirects]]
   from = "/redirect/*"
   to = "/.netlify/functions/redirect/:splat"
   status = 302
